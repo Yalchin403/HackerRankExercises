@@ -26,6 +26,10 @@ def main(n):
 
 
 """
+I don't think this concept is much useful here, may be much effective
+if we were to write fibonacci series with recursion, but I just wanted to
+apply...
+
 If you pay attention, I've used simple memoization concept here:
 So, basically what I've done is caching each value of n-th factorial in the memory
 and return it if it is already in cache, else calculate it with recursion to calculate
